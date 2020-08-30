@@ -1,0 +1,47 @@
+.wrapper-tech {
+  display: grid;
+  margin-top: 10%;
+  background-color: transparent;
+  position: relative;
+}
+
+.tech {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 2fr;
+  padding: 3% 0 4% 8%;
+  margin: 0 0 2% 0;
+  border: #353535 2px solid;
+  background-color: #e41749;
+}
+
+.tech-desc {
+  margin: 0;
+}
+
+.chart-cont {
+  position: relative;
+  width: 80%;
+  height: auto;
+  color: white;
+  border: #353535 4px solid;
+}
+
+#tech-chart {
+  background-color: #454545;
+  width: 80%;
+  height: auto;
+  /* width: 20%;
+  height: 40%; */
+}
+
+@media (max-width: 700px) {
+  .tech {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0 0 8%;
+    margin: 0 0 5% 0;
+    border: #e41749 2px solid;
+    background-color: #e41749;
+  }
+}

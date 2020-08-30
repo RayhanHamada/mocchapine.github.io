@@ -1,0 +1,40 @@
+.wrapper-edu {
+  display: grid;
+  position: relative;
+  margin-top: 10%;
+  grid-template-columns: 1fr 2fr;
+  background-color: transparent;
+}
+
+.edu {
+  position: relative;
+  display: grid;
+  grid-column-start: 2;
+  grid-template-columns: 1fr;
+  background-color: transparent;
+  opacity: 0.9;
+}
+
+.edu-desc {
+  border: #e41749 2px solid;
+  color: white;
+  background-color: #353535;
+  border-radius: 1% 0 0 1%;
+  padding: 8%;
+}
+
+.edu-member {
+}
+
+.edu-member:nth-child(odd) {
+  color: #e41749;
+  /* background-color: white; */
+  list-style-type: square;
+  /* padding-bottom: 0;
+  padding-top: 0; */
+}
+
+.edu-member:nth-child(even) {
+  color: white;
+  /* background-color: #e41749; */
+}

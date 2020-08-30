@@ -1,0 +1,83 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  position: absolute;
+}
+
+.wrapper {
+  background-color: #e41749;
+}
+
+.navbar {
+  opacity: 0.9;
+  background-color: #404040;
+  border-bottom: #e41749 1px solid;
+}
+
+#welcome-nav {
+  margin-left: auto;
+  color: #e41749;
+}
+
+#about-nav,
+#proj-nav,
+#cont-nav {
+  color: #999999;
+  margin-left: 0;
+}
+
+.author {
+  font-size: 40em;
+  color: #e41749;
+  margin-left: 2%;
+}
+
+.float {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #404040;
+  color: #e41749;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 1.5%;
+  z-index: 10;
+}
+
+.float:hover {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #404040;
+  color: #e41749;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    opacity: 0.9;
+    background-color: #404040;
+    display: block;
+  }
+
+  .float {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #404040;
+    color: #e41749;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 4.5%;
+    z-index: 10;
+  }
+}
